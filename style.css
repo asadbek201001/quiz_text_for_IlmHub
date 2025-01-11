@@ -135,3 +135,62 @@ body {
     color: black;
     transition: all 0.5s ease;
 }
+
+@media(max-width: 768px) {
+    h1 {
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+
+    .abcButton_1{
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+        top: auto; 
+        margin: 10px auto;
+        top: 30%;
+        display: block;
+    }
+    .abcButton_2 {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+        top: auto; 
+        margin: 10px auto;
+        top: 50%;
+        display: block;
+    }
+    .abcButton_3 {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+        top: auto; 
+        margin: 10px auto;
+        top: 70%;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+        margin: 5px 0;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    .abcButton_1, .abcButton_2, .abcButton_3, .abcButton-4 {
+        width: 120px;
+        height: 35px;
+        font-size: 12px;
+        margin: 5px auto;
+    }
+}
