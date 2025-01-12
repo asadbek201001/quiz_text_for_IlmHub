@@ -29,17 +29,6 @@
 }
 
 
-h1 {
-    font-weight: bold;
-    font-style: normal;
-    position: absolute;
-    font-size: 50px;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -200%);
-    white-space: nowrap;
-}
-
 
 button {
     position: absolute;
