@@ -17,7 +17,7 @@
 .first-container {
     width: 500px;
     height: 500px;
-    background-color:  rgb(162, 210, 246);
+    background-color: rgba(255, 255, 255, 0.282);
     color: #000000;
     padding: 20px;
     border-radius: 10px;
